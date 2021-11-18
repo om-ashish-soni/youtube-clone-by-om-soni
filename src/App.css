@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.myfirstlogo{
+  width:10vw;
+  pointer-events: none;
+  position:relative;
+  animation: myfirst 10s infinite;
+  animation-direction: alternate;
+}
+.dpImageOfChannel{
+  width:50%;
+  pointer-events: none;
+  position:relative;
+  animation: myfirst1 10s infinite;
+  animation-direction: alternate;
+}
+.loginForm{
+  font-size:2vw;
+  font-variant: small-caps;
+  padding:10%;
+}
+.navLogo{
+  margin-top:1%;
+  width:10vw;
+  float:left;
+  margin-right:2%;
+}
+.searchVideo{
+  margin-left:2%;
+  font-size:1.5vw;
+  font-variant:small-caps;
+  float:left;
+  margin-top:1%;
+  width:50%;
+}
+.inpOfSearch{
+  width:100%;
+  margin-top:1.5%;
+}
+.homeBtn{
+  margin-left:5%;
+  height:3vw;
+
+}
+.uploadBtn{
+  margin-left:2%;
+  height:3vw;
+
+}
+.uploadForm{
+  font-size:2vw;
+  font-variant: small-caps;
+  padding:10%;
+}
+.searchChannel{
+  margin-left:2%;
+  font-size:1.5vw;
+  font-variant:small-caps;
+  float:left;
+  margin-top:1%;
+}
+.signinForm{
+  font-size:1.5vw;
+  font-variant: small-caps;
+}
+.inpLogin{
+  width:40%;
+}
+.videoOuter{
+  width:40%;
+  float:left;
+  margin:2%;
+}
+.seeChannelBtn{
+  font-weight:400;
+  font-size:1.6vw;
+  font-variant:unset;
+  background-color:white;
+  border:none;
+  color:rgb(56, 76, 248);
+}
+.seeProfileBtn{
+  font-weight:400;
+  font-size:2.1vw;
+  margin-left:1%;
+  margin-top:1.2%;
+  font-variant:unset;
+  background-color:white;
+  border:none;
+  color:rgb(56, 76, 248);
+}
+.seeChannelHeading{
+  font-weight:400;
+  font-size:3.5vw;
+  font-variant:unset;
+  background-color:white;
+  border:none;
+  font-variant: small-caps;
+  color:rgb(56, 76, 248);
+  
+}
+.likeBtn{
+  background-color: white;
+  border:none;
+  font-size:1.6vw;
+  font-weight: lighter;
+  font-variant: unset;
+}
+
+.videoOuterTitle{
+  width:90%;
+  margin-right:5%;
+  font-size:1.6vw;
+  font-weight: normal;
+  font-variant: small-caps;
+}
+.searchResultText{
+  font-size:2vw;
+  font-variant: initial;
+  font-kerning: auto;
+  text-align:left;
+}
+.inpTextArea{
+  width:90%;
+  margin:2%;
+}
+.loginBtn{
+  width:40%;
+  background-color:crimson;
+  color:white;
+  border:none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.switchBtn{
+  font-size:2vw;
+  font-variant: inherit;
+  width: 30%;
+  background-color:rgb(79, 81, 214);
+  color:white;
+  border:none;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes myfirst{
+  0% {left:0%;width:7vw;transform: rotate(360deg);}
+  25%{left:32%;width:15vw;transform: rotate(180deg);}
+  50% {left:100%;width:10vw;transform: rotate(0deg);}
+  75%{left:32%;width:15vw;transform: rotate(-180deg);}
+  100% {left:0%;width:7vw;transform: rotate(-360deg);}
+}
+@keyframes myfirst1{
+  0% {left:0%}
+  25%{left:32%;}
+  50% {left:64%;}
+  75%{left:32%;}
+  100% {left:0%}
+}
